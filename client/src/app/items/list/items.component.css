@@ -1,0 +1,51 @@
+/* Styling for the list */
+ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Styling for each list item */
+  ul li {
+    margin-bottom: 20px; /* Add space between list items */
+  }
+  
+  /* Styling for heading within list item */
+  ul li h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5rem; /* Large font size */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Styling for paragraph within list item */
+  ul li p {
+    margin: 0; /* Remove default margin */
+    color: #666; /* Medium dark text color */
+  }
+  
+  /* Styling for delete button within list item */
+  ul li button {
+    padding: 8px 16px; /* Padding */
+    background-color: #dc3545; /* Red background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    margin-right: 10px; /* Add space between buttons */
+  }
+  
+  ul li button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  /* Styling for edit link within list item */
+  ul li a {
+    color: #007bff; /* Blue text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  ul li a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,14 @@
+<h2 style="margin-bottom: 40px;">List of items</h2>
+<ul>
+  <li *ngFor="let item of data" style="display: flex; align-items: center; justify-content: s;">
+    <div style="margin-right: 100px;">
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+    <div>
+      <button (click)="delete(item._id)">Delete</button>
+      <a [routerLink]="'/items/update/' + item._id">Edit</a>
+    </div>
+  </li>
+</ul>
+

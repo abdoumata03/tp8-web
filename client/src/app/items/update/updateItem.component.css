@@ -1,0 +1,64 @@
+/* Styling for the section */
+section.py-5 {
+    display: grid;
+    gap: 40px;
+  }
+  
+  /* Styling for the heading */
+  section.py-5 h1 {
+    font-size: 2rem; /* Larger font size */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styling for the form */
+  section.py-5 form {
+    display: grid;
+    gap: 20px;
+  }
+  
+  /* Styling for form labels */
+  section.py-5 form label {
+    padding-right: 12px;
+  }
+  
+  /* Styling for input fields */
+  section.py-5 form input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 8px; /* Padding */
+    border: 1px solid #ced4da; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Styling for error messages */
+  section.py-5 form p {
+    color: red;
+    display: grid;
+    gap: 6px;
+  }
+  
+  /* Styling for error message small text */
+  section.py-5 form p small {
+    font-size: 0.8rem; /* Smaller font size */
+  }
+  
+  /* Styling for the submit button */
+  section.py-5 form button {
+    padding: 10px 20px; /* Padding */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  section.py-5 form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  section.py-5 form button[disabled] {
+    background-color: #ccc; /* Disable button color */
+    cursor: not-allowed; /* Disable cursor */
+  }
+  
