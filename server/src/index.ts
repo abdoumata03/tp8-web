@@ -3,9 +3,10 @@ import { config } from 'dotenv'
 config()
 import './config/db'
 import connectToDB from './config/db'
-import ItemRoutes from './routes/ItemRoutes'
+import ItemRoutes, { PassportRouter } from './routes/ItemRoutes'
 import { createServer } from 'http'
 import Cors from 'cors'
+import { Passport } from './models/Item'
 
 const app = express()
 
@@ -23,6 +24,7 @@ app.use(
 )
 
 app.use('/items', ItemRoutes)
+app.use('/passports', PassportRouter)
 
 const server = createServer(app)
 
